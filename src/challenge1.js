@@ -14,3 +14,19 @@ export function capitalizeNames(arr) {
 export function namesOnly(arr) {
     return arr.map(obj => obj.name);
 }
+
+export function makeStrings(arr) {
+    return arr.map((elem) => {
+        if (elem.age >= 18) {
+            return elem.name + ' can go to The Matrix'
+        } else {
+            return elem.name + ' is under age!!'
+        }
+    })
+}
+
+export function makeHeaders(arr) {
+    return arr.map((elem) => {
+        return `<h1>${elem.name}</h1><h2>${elem.age}</h2>`;
+    })
+}
