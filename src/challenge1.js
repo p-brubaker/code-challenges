@@ -30,3 +30,4 @@ export function makeHeaders(arr) {
         return `<h1>${elem.name}</h1><h2>${elem.age}</h2>`;
     })
 }
+
