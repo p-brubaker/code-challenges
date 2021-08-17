@@ -196,5 +196,6 @@ const isValid = function(s) {
         return false;
     }
 
+
     return true;
 };
