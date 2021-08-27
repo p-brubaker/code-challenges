@@ -9,7 +9,6 @@ export function sillyHowMuchPencil(str) {
         }
     }
     return myArr;
-    
 }
 
 export function howMuchPencil(str) {
